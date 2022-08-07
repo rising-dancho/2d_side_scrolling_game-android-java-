@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Flappy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="home_title">
+        <b><big>Game Guide :</big></b>
+    </string>
+
+    <string name="home_title_paragraph1">
+        <b>Attack : </b>
+    </string>
+
+    <string name="home_title_paragraph2">
+        <b>Move : </b>
+    </string>
+
+    <string name="home_title_paragraph3">
+        <b>Collision : </b>
+    </string>
+
+
+</resources>

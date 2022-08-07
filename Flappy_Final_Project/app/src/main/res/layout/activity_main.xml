@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F2F2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/background_ui"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <Button
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:id="@+id/play"
+        android:layout_below="@id/highScoreTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Play"
+        android:textColor="@color/colorSpecial"
+        android:background="@drawable/button"
+        android:textSize="22dp" />
+
+    <Button
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:id="@+id/tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/play"
+        android:layout_centerInParent="true"
+        android:text="Guide"
+        android:textColor="@color/colorSpecial"
+        android:background="@drawable/button"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_margin="16dp"
+        android:id="@+id/highScoreTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="High Score"
+        android:textColor="@color/colorSpecial"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:background="@drawable/bg_small"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_volume_up"
+            android:id="@+id/volumeCtrl"
+            />
+        <ImageButton
+            android:background="@drawable/bg_small"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_music_note"
+            android:id="@+id/bgMusicCtrl"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
